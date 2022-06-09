@@ -2,9 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Canonical" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mendelian - Copy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tumelo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/awesomeProject/Canonical" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/awesomeProject/Mendelian - Copy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/awesomeProject/Tumelo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/awesomeProject/eGameV4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eGameV4" vcs="Git" />
   </component>
 </project>

@@ -4,9 +4,44 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b16e50a-8f80-427b-b384-08730d6fdd93" name="Changes" comment="moving things around to see if we can get docker to work">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0b16e50a-8f80-427b-b384-08730d6fdd93" name="Changes" comment="First commit of simple stress tester app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/CallAPI/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/Model/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/ABoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/Almost Ready Cruiser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/Boom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/Cruiser.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/Ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/HB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/Health.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/Tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/alien1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/enemy1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/assets/enemy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/SimpleGame/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/StressTest/Controller/Controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/StressTest/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/StressTest/Model/Model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/StressTest/View/View.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/StressTest/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/StressTest/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/.idea/TestAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/.idea/testapi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/Controller/Controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/Model/Model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/TestAPI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/View/View.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/deployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/docker-gs-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/awesomeProject/TestAPI/testapi.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/aaron/snap/go/GolandProjects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoLibrariesConfigurableProvider&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "false",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/aaron/snap/go/StressTest",
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -69,7 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moving things around to see if we can get docker to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving things around to see if we can get docker to work" />
+    <MESSAGE value="First commit of simple stress tester app" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit of simple stress tester app" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

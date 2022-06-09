@@ -1,6 +1,0 @@
-version: '1'
-services:
-  testapi:
-    image: 494182649875.dkr.ecr.us-east-1.amazonaws.com/testapi:latest
-    ports:
-      - 8080:8080
