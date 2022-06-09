@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "test-dep"
+  labels:
+spec:
+  replicas: 1
+  selector: 
+  template:
+    metadata:
+      labels:
+        app: "mraking2/testapi"
+    spec:
+      containers:
+      -name: "mraking2/testapi"
+       image: "mraking2/testapi"
+       ports:
+       -containerPort: 8080
+       -hostPort: 8080
