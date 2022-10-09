@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b16e50a-8f80-427b-b384-08730d6fdd93" name="Changes" comment="A bit of tidying files">
+    <list default="true" id="cc943249-122c-4511-9b6b-a167a3672a6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/StressTestv2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +30,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29WlavBAXGXNn4tOoe3i5ZI2Wce" />
+  <component name="ProjectId" id="2AL2znuV78Uvpo0zAjtHsJWkS71" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,12 +48,8 @@
     "RunOnceActivity.go.vendoring.notification.had.been.shown": "true",
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
     "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/aaron/snap/go/GolandProjects",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "/home/aaron/snap/go/StressTest"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,12 +66,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="moving things around to see if we can get docker to work" />
-    <MESSAGE value="First commit of simple stress tester app" />
-    <MESSAGE value="A bit of tidying files" />
-    <option name="LAST_COMMIT_MESSAGE" value="A bit of tidying files" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
