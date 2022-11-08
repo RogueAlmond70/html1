@@ -31,9 +31,11 @@ func todo(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	mux := http.NewServeMux()
-	tmpl = template.Must(template.ParseFiles("templates/index.gohtml"))
 
-	mux.HandleFunc("/todo", todo)
-	log.Fatal(http.ListenAndServe(":9002", mux))
+	tmpl = template.Must(template.ParseFiles("templates/index.gohtml"))
+	http.HandleFunc("/todo", todo)
+	err := http.ListenAndServe(":9002", nil)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
